@@ -68,7 +68,6 @@ Cursor can then either:
 ### Available tools
 
 - `run_sql(query: str) -> str`: Runs a single statement (e.g., `SELECT`, `SHOW`, `EXPLAIN`) and returns the rows as pretty-printed JSON.
-- `get_bloat_info() -> str`: Executes an in-depth table/index bloat inspection query and returns the results (including pretty size columns) as JSON.
 
 ### Read-only guarantees
 
